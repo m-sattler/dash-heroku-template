@@ -14,7 +14,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 #downloading the data 
 
 gss = pd.read_csv("https://github.com/jkropko/DS-6001/raw/master/localdata/gss2018.csv",
-                 encoding='cp1252', lowmemory=False, na_values=['IAP','IAP,DK,NA,uncodeable', 'NOT SURE',
+                 encoding='cp1252', low_memory=False, na_values=['IAP','IAP,DK,NA,uncodeable', 'NOT SURE',
                                                'DK', 'IAP, DK, NA, uncodeable', '.a', "CAN'T CHOOSE"])
 
 
